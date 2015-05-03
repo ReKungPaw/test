@@ -42,7 +42,7 @@ class BlogController extends Controller
 
         return $this->render('blog/index.html.twig', array('posts' => $posts));
     }
-
+ 
     /**
      * @Route("/posts/{slug}", name="blog_post")
      *
