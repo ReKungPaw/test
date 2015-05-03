@@ -37,6 +37,8 @@ class BlogController extends Controller
      */
     public function indexAction()
     {
+        // noop
+
         $em = $this->getDoctrine()->getManager();
         $posts = $em->getRepository('AppBundle:Post')->findLatest();
 
