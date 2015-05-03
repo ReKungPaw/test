@@ -37,6 +37,7 @@ class BlogController extends Controller
      */
     public function indexAction()
     {
+        sleep(1.3);
 
         $em = $this->getDoctrine()->getManager();
         $posts = $em->getRepository('AppBundle:Post')->findLatest();
