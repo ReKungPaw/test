@@ -110,4 +110,3 @@ runtime:
       configuration:
         server_id: "8ac18e2c-d991-4fe2-8535-f5f9695c474f"
         server_token: "a7cc5bad961f820c4d3e54a55e62431b2b08315492bc7526afb106b4aca01449"
-        endpoint: http://blackfire.localtunnel.io
